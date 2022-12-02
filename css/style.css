@@ -2,10 +2,40 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bannercolor: #EBF5FE;
+  --titlecolor: #00376E;
+  --bodycolordark: #333333;
+  --bodycolorlight: #ffffff;
+  --titlefont: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --bodyfont: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: var(--bannercolor);
+  height: 120px;
+  width: 100%;
+}
+
+header a{
+  text-decoration: none;
+  font-family: var(--titlefont);
+  font-size: 30px;
+  color: var(--titlecolor);
+  padding: 10px;
+  margin: 5px;
+  justify-content: flex-end;
+}
+
+.header-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -16,8 +46,53 @@ h4,
 h5,
 h6 {
   margin: 0;
+  font-family: var(--titlefont);
+  color: var(--titlecolor);
 }
 
 p {
   margin: 0;
+  font-family: var(--bodyfont);
+  color: var(--bodycolordark);
+}
+
+nav {
+text-align: right;
+padding-right: 86px;
+padding-top: 44px;
+}
+
+.flex-container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 580px;
+  align-items: center;
+  align-content: center;
+}
+
+.logoname {
+  font-family: var(--titlefont);
+  font-weight: bold;
+  padding-top: 40px;
+  padding-left: 86px;
+}
+
+.headshot {
+  border-radius: 12px;
+  display: block;
+  object-fit: contain;
+  max-width: 400px;
+}
+
+.page-section {
+  max-width: 90%;
+}
+
+#portfolio {
+  display: grid;
+  grid-template-rows: ;
+  grid-template-columns: ;
+  grid-template-areas: ;
 }
