@@ -29,6 +29,14 @@ font-family: var(--titlefont);
 color: var(--titlecolor);
 }
 
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
 p {
 margin: 0;
 font-family: var(--bodyfont);
@@ -93,21 +101,29 @@ nav {
   max-width: 500px;
 }
 
+.section-title {
+margin-left:140px;
+margin-bottom:20px;
+padding: 5px;
+}
+
 .portfolio-container {
   display: grid;
   max-width: 90%;
   margin: 0px 10%;
+  padding-bottom: 20px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 300px 300px 300px;
   grid-template-areas: 
   "p1 p1"
   "p2 p3"
   "p4 p5";
-  gap: 8px;
+  gap: 12px;
 }
 
 #p1, #p2, #p3, #p4, #p5 {
   background-size: 100%;
+  background-position: center;
 }
 
 #p1 {
@@ -117,7 +133,7 @@ nav {
   grid-template-areas: 
   "p1 p1 p1 p1s";    
   grid-area: p1;
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("../images/p1.jpg");
 
 }
 
@@ -136,7 +152,7 @@ nav {
   grid-template-areas: 
   "p2 p2s";    
   grid-area: p2;
-  background-image: url("../images/02-portfolio-2.jpg");
+  background-image: url("../images/p2.jpg");
 }
 
 #p2-summary {
