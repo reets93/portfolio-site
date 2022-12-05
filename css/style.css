@@ -37,6 +37,12 @@ h3 {
   font-size: 1.4em;
 }
 
+a {
+  margin: 0;
+  font-family: var(--titlefont);
+  color: var(--titlecolor);
+}
+
 p {
 margin: 0;
 font-family: var(--bodyfont);
@@ -206,4 +212,23 @@ padding: 5px;
 .summary p {
   font-style: italic;
   font-weight: lighter;
+}
+
+#email, #github, #linkedin, #instagram {
+  padding: 0px;
+}
+
+.contact-container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.contact-container img {
+  padding-right: 8px;
 }
