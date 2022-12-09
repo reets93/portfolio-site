@@ -18,7 +18,7 @@ This is to be used as a portfolio, highlighting recent projects that have I have
 Link to deployed page: https://reets93.github.io/portfolio-site
 
 Screenshot of the final outcome
-![alt text](../module2-portfolio-site/images/portfolio-screenshot.png)
+![](../module2-portfolio-site/images/portfolio-screenshot.png)
 
 ## Credits
 NA
