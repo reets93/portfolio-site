@@ -209,8 +209,6 @@ footer {
 }
 
 /* Responsive Design - Media Queries */
-@media only screen (max-width: 1200px) {
-}
+@media only screen (max-width: 1200px) {}
 
-@media only screen (max-width:768px) {
-}
+@media only screen (max-width:768px) {}
