@@ -208,7 +208,7 @@ footer {
   background-color: var(--bannercolor);
 }
 
-/* Responsive Design - Media Queries */
-@media only screen (max-width: 1200px) {}
+/* Responsive Design - Media Queries : Have had issues with this - hoping to resubmit once addressed */
+/* @media only screen (max-width: 1200px) {}
 
-@media only screen (max-width:768px) {}
+@media only screen (max-width:768px) {} */
