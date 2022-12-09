@@ -91,9 +91,12 @@ nav {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-content:center;
-  height: 500px;
+  max-height: 500px;
   margin-left: 80px;
   margin-right: 80px;
+  overflow: hidden;
+  margin-top:5%;
+  margin-bottom: 5%;
 }
 
 .about-content {
@@ -200,18 +203,30 @@ align-content: top;
 
 #email {
 grid-area: e;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #github {
 grid-area: g;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #linkedin {
 grid-area: l;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #instagram {
 grid-area: i;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 footer {
